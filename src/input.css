@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    nav {
+        @apply bg-pink-kb w-full py-2 top-0 sticky;
+    }
+}
