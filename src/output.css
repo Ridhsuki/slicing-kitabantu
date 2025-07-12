@@ -566,6 +566,14 @@ nav{
   padding-bottom: 0.5rem;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
 .mx-7{
   margin-left: 1.75rem;
   margin-right: 1.75rem;
@@ -583,6 +591,14 @@ nav{
 
 .mb-1{
   margin-bottom: 0.25rem;
+}
+
+.ms-auto{
+  margin-inline-start: auto;
+}
+
+.-mt-10{
+  margin-top: -2.5rem;
 }
 
 .flex{
@@ -617,6 +633,11 @@ nav{
   width: 100%;
 }
 
+.w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .max-w-screen-sm{
   max-width: 640px;
 }
@@ -627,6 +648,10 @@ nav{
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .items-center{
@@ -688,6 +713,22 @@ nav{
   border-bottom-width: 1px;
 }
 
+.border-r{
+  border-right-width: 1px;
+}
+
+.border-s-\[1px\]{
+  border-inline-start-width: 1px;
+}
+
+.border-e{
+  border-inline-end-width: 1px;
+}
+
+.border-e-\[1px\]{
+  border-inline-end-width: 1px;
+}
+
 .border-gray-200{
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
@@ -696,6 +737,35 @@ nav{
 .border-b-gray-200{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.border-s-gray-400{
+  --tw-border-opacity: 1;
+  border-inline-start-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+}
+
+.border-r-gray-400{
+  --tw-border-opacity: 1;
+  border-right-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+}
+
+.border-e-gray-400{
+  --tw-border-opacity: 1;
+  border-inline-end-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
+}
+
+.border-s-\[\]{
+  border-inline-start-color: ;
+}
+
+.border-s-gray-200{
+  --tw-border-opacity: 1;
+  border-inline-start-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.border-e-gray-200{
+  --tw-border-opacity: 1;
+  border-inline-end-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#FFE7E7\]{
@@ -723,8 +793,24 @@ nav{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.fill-gray-400{
+  fill: #9ca3af;
+}
+
+.fill-white{
+  fill: #fff;
+}
+
 .p-8{
   padding: 2rem;
+}
+
+.p-5{
+  padding: 1.25rem;
+}
+
+.p-2{
+  padding: 0.5rem;
 }
 
 .px-3{
@@ -740,6 +826,10 @@ nav{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .text-2xl{
@@ -789,4 +879,10 @@ nav{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
