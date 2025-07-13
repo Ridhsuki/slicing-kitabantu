@@ -593,6 +593,10 @@ nav{
   bottom: 0px;
 }
 
+.m-auto{
+  margin: auto;
+}
+
 .mx-7{
   margin-left: 1.75rem;
   margin-right: 1.75rem;
@@ -608,6 +612,16 @@ nav{
   margin-bottom: 1.25rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -620,6 +634,10 @@ nav{
   margin-top: 0.75rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .flex{
   display: flex;
 }
@@ -630,6 +648,10 @@ nav{
 
 .h-2{
   height: 0.5rem;
+}
+
+.h-32{
+  height: 8rem;
 }
 
 .min-h-screen{
@@ -650,6 +672,22 @@ nav{
 
 .w-full{
   width: 100%;
+}
+
+.w-\[1\/2\]{
+  width: 1/2;
+}
+
+.w-32{
+  width: 8rem;
+}
+
+.w-1\/4{
+  width: 25%;
+}
+
+.w-3\/4{
+  width: 75%;
 }
 
 .max-w-screen-sm{
@@ -680,6 +718,10 @@ nav{
   justify-content: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -708,6 +750,10 @@ nav{
   border-radius: 9999px;
 }
 
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
 .rounded-e-full{
   border-start-end-radius: 9999px;
   border-end-end-radius: 9999px;
@@ -727,6 +773,14 @@ nav{
   border-width: 1px;
 }
 
+.border{
+  border-width: 1px;
+}
+
+.border-\[1\.5px\]{
+  border-width: 1.5px;
+}
+
 .border-b-\[1px\]{
   border-bottom-width: 1px;
 }
@@ -739,9 +793,18 @@ nav{
   border-inline-start-width: 1px;
 }
 
+.border-b-\[1\.5px\]{
+  border-bottom-width: 1.5px;
+}
+
 .border-gray-200{
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity, 1));
 }
 
 .border-b-gray-200{
@@ -777,6 +840,11 @@ nav{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
 }
 
 .fill-gray-400{
@@ -828,8 +896,29 @@ nav{
   padding-bottom: 1.25rem;
 }
 
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
 }
 
 .font-poppins{
@@ -851,12 +940,30 @@ nav{
   line-height: 1rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .text-\[\#4A4A4A\]{
