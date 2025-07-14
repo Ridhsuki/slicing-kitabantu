@@ -617,6 +617,11 @@ nav{
   margin-bottom: 1.25rem;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -645,8 +650,24 @@ nav{
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-2{
   height: 0.5rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-14{
+  height: 3.5rem;
 }
 
 .min-h-screen{
@@ -689,6 +710,10 @@ nav{
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
 .justify-end{
   justify-content: flex-end;
 }
@@ -717,6 +742,10 @@ nav{
   gap: 1rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .overflow-auto{
   overflow: auto;
 }
@@ -731,6 +760,14 @@ nav{
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
 }
 
 .rounded-e-full{
@@ -821,6 +858,10 @@ nav{
   fill: #fff;
 }
 
+.fill-pink-kb{
+  fill: #FE9AA0;
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -839,6 +880,10 @@ nav{
 
 .p-1{
   padding: 0.25rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .px-10{
@@ -869,6 +914,11 @@ nav{
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pb-10{
@@ -914,6 +964,11 @@ nav{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{
@@ -966,4 +1021,24 @@ nav{
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.peer:checked ~ .peer-checked\:bg-pink-kb{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 154 160 / var(--tw-bg-opacity, 1));
+}
+
+.peer:checked ~ .peer-checked\:fill-white{
+  fill: #fff;
+}
+
+.peer:checked ~ .peer-checked\:text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
