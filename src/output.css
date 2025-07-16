@@ -650,22 +650,6 @@ nav{
   margin-top: 1.25rem;
 }
 
-.mt-\[\]{
-  margin-top: ;
-}
-
-.mt-\[11px\]{
-  margin-top: 11px;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .mt-\[160px\]{
   margin-top: 160px;
 }
@@ -718,14 +702,6 @@ nav{
   width: 100%;
 }
 
-.w-\[\]{
-  width: ;
-}
-
-.w-\[35px\]{
-  width: 35px;
-}
-
 .max-w-screen-sm{
   max-width: 640px;
 }
@@ -740,6 +716,10 @@ nav{
 
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .items-center{
@@ -776,6 +756,14 @@ nav{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-11{
+  gap: 2.75rem;
 }
 
 .overflow-auto{
@@ -835,10 +823,6 @@ nav{
 
 .border-s-\[1px\]{
   border-inline-start-width: 1px;
-}
-
-.border-b{
-  border-bottom-width: 1px;
 }
 
 .border-gray-200{
@@ -963,6 +947,11 @@ nav{
   padding-bottom: 1.25rem;
 }
 
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -998,6 +987,10 @@ nav{
   line-height: 2.5rem;
 }
 
+.text-\[50pt\]{
+  font-size: 50pt;
+}
+
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1016,14 +1009,6 @@ nav{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[50px\]{
-  font-size: 50px;
-}
-
-.text-\[50pt\]{
-  font-size: 50pt;
 }
 
 .font-bold{
@@ -1070,15 +1055,6 @@ nav{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\]{
-  color: ;
-}
-
-.text-gray-50{
-  --tw-text-opacity: 1;
-  color: rgb(249 250 251 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg{
