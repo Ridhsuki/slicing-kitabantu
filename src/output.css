@@ -622,6 +622,11 @@ nav{
   margin-bottom: 1.25rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -652,6 +657,10 @@ nav{
 
 .mt-\[160px\]{
   margin-top: 160px;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .flex{
@@ -742,6 +751,10 @@ nav{
   gap: 2.5rem;
 }
 
+.gap-11{
+  gap: 2.75rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -758,16 +771,12 @@ nav{
   gap: 1.25rem;
 }
 
-.gap-1{
-  gap: 0.25rem;
-}
-
-.gap-11{
-  gap: 2.75rem;
-}
-
 .overflow-auto{
   overflow: auto;
+}
+
+.overflow-y-auto{
+  overflow-y: auto;
 }
 
 .text-nowrap{
@@ -823,6 +832,10 @@ nav{
 
 .border-s-\[1px\]{
   border-inline-start-width: 1px;
+}
+
+.border-b{
+  border-bottom-width: 1px;
 }
 
 .border-gray-200{
@@ -912,6 +925,11 @@ nav{
   padding-right: 2.5rem;
 }
 
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -947,9 +965,9 @@ nav{
   padding-bottom: 1.25rem;
 }
 
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-10{
@@ -1055,6 +1073,11 @@ nav{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg{
