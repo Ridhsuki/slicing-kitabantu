@@ -612,6 +612,11 @@ nav{
   margin-bottom: 2.5rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -622,9 +627,14 @@ nav{
   margin-bottom: 1.25rem;
 }
 
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .-mt-10{
@@ -657,10 +667,6 @@ nav{
 
 .mt-\[160px\]{
   margin-top: 160px;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
 }
 
 .flex{
@@ -799,6 +805,10 @@ nav{
   border-radius: 0.75rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .rounded-e-full{
   border-start-end-radius: 9999px;
   border-end-end-radius: 9999px;
@@ -812,6 +822,26 @@ nav{
 .rounded-t-\[50px\]{
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+}
+
+.rounded-t-full{
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.rounded-t-\[50\]{
+  border-top-left-radius: 50;
+  border-top-right-radius: 50;
+}
+
+.rounded-e-xl{
+  border-start-end-radius: 0.75rem;
+  border-end-end-radius: 0.75rem;
+}
+
+.rounded-e-2xl{
+  border-start-end-radius: 1rem;
+  border-end-end-radius: 1rem;
 }
 
 .border-\[1\.5px\]{
@@ -832,10 +862,6 @@ nav{
 
 .border-s-\[1px\]{
   border-inline-start-width: 1px;
-}
-
-.border-b{
-  border-bottom-width: 1px;
 }
 
 .border-gray-200{
@@ -965,9 +991,14 @@ nav{
   padding-bottom: 1.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-10{
@@ -976,6 +1007,18 @@ nav{
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pe-10{
+  padding-inline-end: 2.5rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
@@ -1073,11 +1116,6 @@ nav{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-gray-200{
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg{
