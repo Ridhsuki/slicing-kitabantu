@@ -585,10 +585,6 @@ nav{
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
-.pointer-events-auto{
-  pointer-events: auto;
-}
-
 .absolute{
   position: absolute;
 }
@@ -661,6 +657,16 @@ nav{
   margin-bottom: 1.25rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -695,6 +701,10 @@ nav{
 
 .mt-\[160px\]{
   margin-top: 160px;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -745,13 +755,13 @@ nav{
   width: 66.666667%;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-screen-sm{
@@ -875,6 +885,10 @@ nav{
 }
 
 .border-\[1px\]{
+  border-width: 1px;
+}
+
+.border{
   border-width: 1px;
 }
 
