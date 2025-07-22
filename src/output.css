@@ -622,6 +622,11 @@ nav{
   margin: auto;
 }
 
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mx-7{
   margin-left: 1.75rem;
   margin-right: 1.75rem;
@@ -662,11 +667,6 @@ nav{
   margin-bottom: 2rem;
 }
 
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .-mt-10{
   margin-top: -2.5rem;
 }
@@ -699,12 +699,12 @@ nav{
   margin-top: 1.25rem;
 }
 
-.mt-\[160px\]{
-  margin-top: 160px;
-}
-
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-\[160px\]{
+  margin-top: 160px;
 }
 
 .block{
@@ -762,6 +762,22 @@ nav{
 
 .w-full{
   width: 100%;
+}
+
+.w-3{
+  width: 0.75rem;
+}
+
+.w-3\/4{
+  width: 75%;
+}
+
+.w-1{
+  width: 0.25rem;
+}
+
+.w-1\/4{
+  width: 25%;
 }
 
 .max-w-screen-sm{
@@ -888,10 +904,6 @@ nav{
   border-width: 1px;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .border-b-\[1px\]{
   border-bottom-width: 1px;
 }
@@ -927,6 +939,10 @@ nav{
 .border-s-gray-200{
   --tw-border-opacity: 1;
   border-inline-start-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.border-b-\[1\]{
+  border-bottom-color: 1;
 }
 
 .bg-\[\#FFE7E7\]{
@@ -1069,6 +1085,14 @@ nav{
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
 }
 
 .text-center{
