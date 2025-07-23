@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konfirmasi Donasi | KitaBantu</title>
+    <link rel="shortcut icon" href="assets/icons/Vector-7.svg" type="image/x-icon">
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
@@ -56,13 +57,15 @@
                         class="w-full bg-gray-100 rounded-md border-[1px] border-gray-200 h-24 mt-3 px-5 py-3"></textarea>
                 </div>
                 <div class="my-3">
-                    <input type="checkbox" name="" id="" class="bg-gray-100 rounded-md border-[1px] border-gray-200">
-                    <label for="">By continuing the payment, you agree to our <a href="" class="text-pink-kb">Terms and
-                            Conditions</a> and <a href="" class="text-pink-kb">Privacy Policy</a>.</label>
+                    <input type="checkbox" name="terms" id="terms"
+                        class="bg-gray-100 rounded-md border-[1px] border-gray-200">
+                    <label for="terms">By continuing the payment, you agree to our <a href="terms_conditions.html"
+                            class="text-pink-kb">Terms and
+                            Conditions</a> and <a href="about.html" class="text-pink-kb">Privacy Policy</a>.</label>
                 </div>
             </div>
             <div class="p-5 bottom-0">
-                <button type="submit"
+                <button type="submit" onclick="window.location.href='payment_donation.html'"
                     class="bg-pink-kb rounded-full p-3 w-full flex justify-center items-center gap-2 text-white font-semibold text-xl shadow-lg">
                     Konfirmasi
                 </button>
